@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Exercise3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Exercise3.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>THUC HIEN PHEP TOAN</h1>
+        <br>
+        <form id="frm" action='exercise3' method='post'>
+            <label>Nhap n:</label><input type='text' name='n' id="n"> 
+            <br>
+            <label>Chon phep toan</label>:
+            <select name="select" onchange="change()">
+                <option value="default">Chon phep toan</option>
+                <option value="sum">Tong n so lien tiep</option>
+                <option value="n!">Tinh n!</option>
+                <option value="odd">In day le</option>
+                <option value="even">In day so chan</option>
+                <option value="prime">Kiem tra so nguyen to</option>
+            </select>
+        </form>
+        
+        <script>
+            function change() {
+                document.getElementById("frm").submit();
+            }
+        </script>
+    </body>
+</html>

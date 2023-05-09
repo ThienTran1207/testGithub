@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 31, 2023, 4:49:33 PM
+    Author     : Peanut
+*/
+
+h1{
+    color: blue;
+}
+
+input{
+    margin-bottom: 30px;
+}
+
+label{
+    color: blue;
+}
